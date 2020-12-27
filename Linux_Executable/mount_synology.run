@@ -1,0 +1,7 @@
+#Get gid and uid by using: id -g USERNAME and id -u USERNAME
+#Purdue Domain is BOILERAD
+
+#added lines to remove and clear file in order to refresh
+sudo rmdir /mnt/FILENAME
+sudo mkdir /mnt/FILENAME
+sudo mount -v -t cifs -o username= [DOMAIN_USERNAME],vers=2.0,domain=[DOMAIN],uid=[UID],gid=[GID] //DOMAIN.INSTITUTION.edu/SERVERSPACE/ /mnt/FILENAME
