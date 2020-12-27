@@ -1,3 +1,6 @@
+## ADAPTED FROM pkkid ##
+https://github.com/pkkid/pygrid
+
 ## PyGrid ##
 <img align='right' width='500' src='example.gif'/>
 PyGrid is a small utility which allows you to easily organize your open windows
@@ -82,7 +85,7 @@ To start at boot I simply added the following line to *Startup Applications*.
 ```bash
 /usr/bin/python3 <full-path>/pygrid/pygrid.py
 ```
- 
+
 
 
 #### Credit & License ####
